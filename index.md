@@ -3,4 +3,4 @@ This is the official PocketStream website! It is a work in progress (for the tim
 
 # Contact Me/Resume
 [Contact](https://www.vcard.link/card/DfHu)   
-[Resume](Files/Murad's Resume.pdf)   
+[Resume](https://github.com/MuradhaMalik/pocketstream/blob/daae1d2695faf06fefeeda2669345fe3a9a3e44b/Files/Murad's%20Resume.pdf)   
