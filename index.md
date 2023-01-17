@@ -1,3 +1,5 @@
+<!--
+Old First Page
 # Hello World!
 This is the official PocketStream website! It is a work in progress (for the time being). If you would like to know more about myself (Murad Malik), head on over to my personal [website!](https://muradhamalik.github.io/Murad-s-Page/)
 
@@ -8,3 +10,14 @@ PocketStream utilises two technologies: remote desktop and virtual desktop softw
 [Contact](https://www.vcard.link/card/DfHu)   
 [Email](mailto:muradmalik223@gmail.com)  
 [My Resume](/Pages/Resume.md)   
+-->
+
+# Welcome to the PocketStream Homepage
+
+## Our Mission
+PocketStream aims to make computing more affordable and more convinient for all.
+
+## Contact Me/Resume
+[Contact](https://www.vcard.link/card/DfHu)
+[Email](mailto:muradmalik223@gmail.com)
+[My Resume](/Pages/Resume.md)
