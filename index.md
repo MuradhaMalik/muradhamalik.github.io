@@ -12,7 +12,7 @@ PocketStream utilises two technologies: remote desktop and virtual desktop softw
 [My Resume](/Pages/Resume.md)   
 -->
 
-# Welcome to the PocketStream Homepage
+<h1 align="center"> Welcome to the PocketStream Homepage </h1>
 
 ## Our Mission
 PocketStream aims to make computing more affordable and more convinient for all.
