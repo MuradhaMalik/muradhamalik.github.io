@@ -13,9 +13,7 @@ PocketStream utilises two technologies: remote desktop and virtual desktop softw
 -->
 
 <h1 align="center"> Welcome to the PocketStream Homepage </h1>
-This website is a work in progress
-
-<h2 align="center"> This website is a work in progress. Thank you for you understanding! </h2>
+<p align="center"> This website is a work in progress. Thank you for you understanding! </p>
 This website is a work in progress
 PocketStream aims to make computing more affordable and more convinient for all.
 ## Alpha Testing Interest form
