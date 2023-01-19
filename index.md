@@ -11,18 +11,18 @@ PocketStream utilises two technologies: remote desktop and virtual desktop softw
 [Email](mailto:muradmalik223@gmail.com)  
 [My Resume](/Pages/Resume.md)   
 -->
-
+<div align="center">
 <h1 align="center"> Welcome to the PocketStream Homepage </h1>
 This website is a work in progress
 
 ## Our Mission
 PocketStream aims to make computing more affordable and more convinient for all.
 ## Alpha Testing Interest form
-<div align="center">
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf3n874grv9UyRpADN5VwA9Rn7DeeNkBEyt8_SfhzgWU5Dewg/viewform?embedded=true" width="640" height="760" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
 
 ## Contact Me/Resume
 [Contact](https://www.vcard.link/card/DfHu)
 [Email](mailto:muradmalik223@gmail.com)
 [My Resume](/Pages/Resume.md)
+</div>
