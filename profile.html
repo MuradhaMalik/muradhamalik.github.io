@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Notus Pro</title>
-    <meta property="og:title" content="Notus Pro" />
+    <title>Profile - Notus Pro</title>
+    <meta property="og:title" content="Profile - Notus Pro" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -32,11 +32,10 @@
   </head>
   <body>
     <div>
-      <link href="./home.css" rel="stylesheet" />
+      <link href="./profile.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <div class="home-hero">
-          <div class="home-bg"></div>
+      <div class="profile-container">
+        <div class="profile-image">
           <div data-role="Header" class="header-header">
             <div data-role="BurgerMenu" class="header-burger-menu">
               <svg viewBox="0 0 1024 1024" class="header-icon">
@@ -202,91 +201,97 @@
               </div>
             </header>
           </div>
-          <div class="home-container1">
-            <div class="home-container2">
-              <h1 class="home-text">Cloud Computing for All</h1>
+          <img
+            alt="image"
+            src="public/playground_assets/gray-vector.svg"
+            class="profile-image1"
+          />
+          <div class="profile-bg"></div>
+        </div>
+        <div class="profile-container01">
+          <div class="profile-container02">
+            <div class="profile-container03">
+              <div class="counter-container">
+                <h1 class="counter-text TextXL"><span>22</span></h1>
+                <span class="counter-text1 TextSM"><span>Friends</span></span>
+              </div>
+              <div class="counter-container">
+                <h1 class="counter-text TextXL"><span>10</span></h1>
+                <span class="counter-text1 TextSM"><span>Photos</span></span>
+              </div>
+              <div class="counter-container">
+                <h1 class="counter-text TextXL"><span>89</span></h1>
+                <span class="counter-text1 TextSM"><span>Comments</span></span>
+              </div>
             </div>
             <img
               alt="image"
-              src="public/playground_assets/white-vector.svg"
-              class="home-image"
+              src="public/playground_assets/team2-200h.jpg"
+              class="profile-image2"
             />
-          </div>
-        </div>
-        <div class="home-features">
-          <h1 class="home-text1">
-            <span>Why use&nbsp;PocketStream?</span>
-            <br />
-          </h1>
-          <div class="home-container3">
-            <div class="home-feature-card">
-              <svg viewBox="0 0 1024 1024" class="home-icon">
-                <path
-                  d="M723.243 469.333c-9.131-114.773-47.019-228.395-114.091-328.96 66.987 17.451 126.848 52.565 174.379 100.096 60.075 60.075 100.309 139.861 110.123 228.864zM609.237 883.584c63.275-94.976 103.936-207.061 113.877-328.917h170.539c-9.813 89.003-50.048 168.789-110.123 228.864-47.488 47.488-107.349 82.603-174.293 100.053zM300.757 554.667c9.131 114.773 47.019 228.395 114.091 328.96-66.987-17.451-126.848-52.565-174.379-100.096-60.075-60.075-100.309-139.861-110.123-228.864zM414.763 140.416c-63.232 94.976-103.936 207.061-113.877 328.917h-170.539c9.813-89.003 50.048-168.789 110.123-228.864 47.531-47.488 107.349-82.603 174.293-100.053zM511.872 42.667c-129.536 0.043-246.869 52.608-331.733 137.472-84.907 84.864-137.472 202.283-137.472 331.861s52.565 246.997 137.472 331.861c84.821 84.864 202.155 137.429 331.691 137.472 0.043 0 0.128 0 0.171 0s0.085 0 0.128 0c129.536-0.043 246.869-52.608 331.733-137.472 84.907-84.864 137.472-202.283 137.472-331.861s-52.565-246.997-137.472-331.861c-84.821-84.864-202.155-137.429-331.691-137.472-0.043 0-0.128 0-0.171 0s-0.085 0-0.128 0zM637.696 554.667c-10.752 118.955-56.149 228.693-125.653 317.909-73.771-94.763-115.456-205.568-125.653-317.909zM511.957 151.424c73.771 94.763 115.456 205.568 125.653 317.909h-251.307c10.752-118.955 56.149-228.693 125.653-317.909z"
-                ></path>
-              </svg>
-              <div class="home-container4">
-                <h2 class="home-heading">Access Your Desktop from Anywhere</h2>
-                <span class="home-text4">
-                  Despite if you're at home, school, the library, or at a cafe,
-                  your desktop will always be accessable from any computer,
-                  anywhere.
-                </span>
+            <div class="profile-container04">
+              <div class="profile-container05">
+                <div class="primary-button-container">
+                  <button class="primary-button-button button TextXS">
+                    <span>connect</span>
+                  </button>
+                </div>
               </div>
-            </div>
-            <div class="home-feature-card1">
-              <svg viewBox="0 0 1024 1024" class="home-icon2">
-                <path
-                  d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                ></path>
-              </svg>
-              <div class="home-container5">
-                <h2 class="home-heading1">
-                  Forget About Technological&nbsp;Obsolescence &nbsp;
-                </h2>
-                <span class="home-text5">
-                  No matter how old your computer is, PocketStream allows it to
-                  perform even the most computationally intensive tasks.
-                </span>
-              </div>
-            </div>
-            <div class="home-feature-card2">
-              <svg viewBox="0 0 1024 1024" class="home-icon4">
-                <path
-                  d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                ></path>
-              </svg>
-              <div class="home-container6">
-                <h2 class="home-heading2">Access Your Desktop from Anywhere</h2>
-                <span class="home-text6">
-                  No matter if you're at home, school, the library, or at a
-                  cafe, your desktop will always be accessable from any
-                  computer, anywhere.
-                </span>
-              </div>
-            </div>
-            <div class="home-feature-card3">
-              <svg viewBox="0 0 1024 1024" class="home-icon6">
-                <path
-                  d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-                ></path>
-              </svg>
-              <div class="home-container7">
-                <h2 class="home-heading3">Access Your Desktop from Anywhere</h2>
-                <span class="home-text7">
-                  No matter if you're at home, school, the library, or at a
-                  cafe, your desktop will always be accessable from any
-                  computer, anywhere.
-                </span>
+              <div class="secondary-button-container">
+                <button class="secondary-button-button TextXS button">
+                  <span>message</span>
+                </button>
               </div>
             </div>
           </div>
+          <div class="profile-container06">
+            <h3 class="profile-text Text2XL">Jenna Stones</h3>
+            <div class="profile-container07">
+              <svg viewBox="0 0 1024 1024" class="profile-icon">
+                <path
+                  d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+                ></path>
+              </svg>
+              <span class="profile-text1 TextSM">LOS ANGELES, CALIFORNIA</span>
+            </div>
+            <div class="profile-container08">
+              <svg viewBox="0 0 1024 1024" class="profile-icon2">
+                <path
+                  d="M810.667 213.333h-597.333l64-85.333h469.333zM929.877 230.059l-127.744-170.325c-8.363-11.136-21.077-17.024-34.133-17.067h-512c-13.909 0-26.283 6.656-34.133 17.067l-127.744 170.325c-1.835 2.389-3.456 5.035-4.736 7.808-2.773 5.803-4.096 12.032-4.053 18.133v597.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h597.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-597.333c0-9.344-3.029-18.005-8.064-24.96-0.171-0.213-0.299-0.427-0.469-0.64zM170.667 298.667h682.667v554.667c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-597.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165zM640 426.667c0 35.371-14.293 67.285-37.504 90.496s-55.125 37.504-90.496 37.504-67.285-14.293-90.496-37.504-37.504-55.125-37.504-90.496c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667c0 58.88 23.936 112.299 62.464 150.869s91.989 62.464 150.869 62.464 112.299-23.936 150.869-62.464 62.464-91.989 62.464-150.869c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667z"
+                ></path>
+              </svg>
+              <span class="profile-text2 TextSM">
+                Solution Manager - Creative Tim Officer
+              </span>
+            </div>
+            <div class="profile-container09">
+              <div class="profile-container10">
+                <svg viewBox="0 0 1097.142857142857 1024" class="profile-icon4">
+                  <path
+                    d="M548.571 0l548.571 219.429v73.143h-73.143c0 20-17.714 36.571-39.429 36.571h-872c-21.714 0-39.429-16.571-39.429-36.571h-73.143v-73.143zM146.286 365.714h146.286v438.857h73.143v-438.857h146.286v438.857h73.143v-438.857h146.286v438.857h73.143v-438.857h146.286v438.857h33.714c21.714 0 39.429 16.571 39.429 36.571v36.571h-950.857v-36.571c0-20 17.714-36.571 39.429-36.571h33.714v-438.857zM1057.714 914.286c21.714 0 39.429 16.571 39.429 36.571v73.143h-1097.143v-73.143c0-20 17.714-36.571 39.429-36.571h1018.286z"
+                  ></path>
+                </svg>
+                <span class="profile-text3 TextSM">
+                  University of Computer Science
+                </span>
+              </div>
+            </div>
+            <div class="profile-container11"></div>
+            <span class="profile-text4">
+              <span class="profile-text5">
+                An artist of considerable range, Jenna the name taken by
+                Melbourne-raised, Brooklyn-based Nick Murphy writes, performs
+                and records all of his own music, giving it a warm, intimate
+                feel with a solid groove structure. An artist of considerable
+                range.
+              </span>
+            </span>
+            <span class="profile-text6">
+              <span>Show more</span>
+              <span></span>
+            </span>
+          </div>
         </div>
-        <h1 class="home-text8">Sign up for Alpha Testing</h1>
-        <iframe
-          src="https://form.jotform.com/230186082959060"
-          class="home-iframe"
-        ></iframe>
         <div class="footer-container">
           <footer class="footer-footer">
             <img
